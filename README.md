@@ -133,22 +133,5 @@ pip install mysql-connector-python
 Buka browser dan akses `http://localhost/simple_laundry`
 
 -----
-<div align="center"\>\<small\>Dibuat untuk Tugas Kuliah Manajemen Informatika - Universitas Negeri Surabaya\</small\> \</div\>
+<div align="center"> <small>Dibuat untuk Tugas Kuliah Manajemen Informatika - Universitas Negeri Surabaya</small> </div>
 
-```
-
------
-
-### Langkah Terakhir: Mengisi Gambar
-
-Agar tabel gambarnya (Screenshots) tidak *broken* (gambar rusak), kamu harus melakukan ini:
-
-1.  Di folder proyekmu, buat folder baru bernama: **`screenshots`**
-2.  Ambil 3 screenshot aplikasimu, beri nama:
-      * `home.png` (Tampilan awal tabel penuh)
-      * `search.png` (Tampilan saat sedang mencari/tombol aksi terlihat)
-      * `export.png` (Tampilan notifikasi berhasil export atau screenshot file text hasil exportnya)
-3.  Masukkan ketiga gambar itu ke folder `screenshots`.
-
-Hasilnya nanti di GitHub akan terlihat sangat rapi seperti portofolio profesional. Selamat mengumpulkan tugas\!
-```
