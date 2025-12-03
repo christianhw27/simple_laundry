@@ -24,7 +24,7 @@ Berikut adalah tampilan antarmuka aplikasi:
 
 | Dashboard Utama | Fitur Pencarian & Aksi | Output Laporan (Python) |
 |:---:|:---:|:---:|
-| <img src="screenshoot/index.png" width="250"/> | <img src="screenshots/search.png" width="250"/> | <img src="screenshots/python.png" width="250"/> |
+| <img src="screenshoot/index.png" width="500"/> | <img src="screenshoot/search.png" width="500"/> | <img src="screenshoot/python.png" width="500"/> |
 | *Tampilan daftar antrian* | *Filter data & Tombol Aksi* | *File txt hasil generate* |
 
 ---
