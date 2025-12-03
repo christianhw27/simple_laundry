@@ -133,8 +133,7 @@ pip install mysql-connector-python
 Buka browser dan akses `http://localhost/simple_laundry`
 
 -----
-
-\<div align="center"\>\<small\>Dibuat untuk Tugas Kuliah Manajemen Informatika - Universitas Negeri Surabaya\</small\> \</div\>
+<div align="center"\>\<small\>Dibuat untuk Tugas Kuliah Manajemen Informatika - Universitas Negeri Surabaya\</small\> \</div\>
 
 ```
 
