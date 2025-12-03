@@ -62,8 +62,7 @@ simple_laundry/
 
 ## 📖 Dokumentasi Teknis (Codebase)
 
-\<details\>
-\<summary\>\<b\>Klik untuk membuka Penjelasan Kode & Database\</b\>\</summary\>
+\<details\>\<summary\>\<b\>Klik untuk membuka Penjelasan Kode & Database\</b\>\</summary\>
 <br>
 
 ### A. Arsitektur Database (MySQL)
