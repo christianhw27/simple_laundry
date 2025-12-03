@@ -62,7 +62,9 @@ simple_laundry/
 
 ## 📖 Dokumentasi Teknis (Codebase)
 
-\<details\>\<summary\>\<b\>Klik untuk membuka Penjelasan Kode & Database\</b\>\</summary\>
+<details>
+<summary><b>Klik untuk membuka Penjelasan Kode & Database</b></summary>
+  
 <br>
 
 ### A. Arsitektur Database (MySQL)
@@ -101,7 +103,7 @@ Sistem menggunakan logika kondisional pada tampilan:
   - Status **Proses**: Muncul tombol [✅ Selesai] dan [🗑️ Hapus].
   - Status **Selesai**: Tombol [✅ Selesai] disembunyikan (invisible) untuk menjaga layout tetap rapi.
 
-\</details\>
+</details>
 
 -----
 
