@@ -1,0 +1,208 @@
+/* Reset dasar */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f5; /* Abu-abu muda sejuk */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Container utama biar konten di tengah */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    flex: 1; /* Biar panjangnya otomatis */
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+/* Button Styling */
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+
+button[name="simpan"] {
+    background-color: #3498db; /* Biru Laundry */
+}
+button[name="simpan"]:hover {
+    background-color: #2980b9;
+}
+
+button[name="export_python"] {
+    background-color: #27ae60; /* Hijau Excel/Data */
+}
+button[name="export_python"]:hover {
+    background-color: #219150;
+}
+
+/* Search Bar */
+#keyword {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Biar padding gak ngerusak width */
+    background: url('https://cdn-icons-png.flaticon.com/512/54/54481.png') no-repeat scroll 98% 10px;
+    background-size: 20px;
+    background-color: #fff;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+    text-align: left;
+    padding: 15px;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Status Badge (Kecil warna-warni) */
+.badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: white;
+}
+.status-proses { background-color: #f39c12; } /* Kuning */
+.status-selesai { background-color: #3498db; } /* Biru */
+.status-diambil { background-color: #95a5a6; } /* Abu */
+
+/* Link Aksi */
+a {
+    text-decoration: none;
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+a:hover {
+    text-decoration: underline;
+}
+a.btn-selesai {
+    color: #27ae60;
+    margin-right: 10px;
+}
+
+/* --- Tambahan untuk Tombol Aksi --- */
+
+.btn-aksi {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 0.85em;
+    font-weight: 600;
+    text-decoration: none;
+    color: white !important; /* Paksa warna teks putih */
+    transition: 0.2s;
+}
+
+/* Tombol Selesai (Hijau) */
+.btn-selesai {
+    background-color: #27ae60;
+    margin-right: 5px;
+}
+.btn-selesai:hover {
+    background-color: #219150;
+    box-shadow: 0 2px 5px rgba(39, 174, 96, 0.4);
+}
+
+/* Tombol Hapus (Merah) */
+.btn-hapus {
+    background-color: #e74c3c;
+}
+.btn-hapus:hover {
+    background-color: #c0392b;
+    box-shadow: 0 2px 5px rgba(231, 76, 60, 0.4);
+}
+
+/* Pastikan kolom aksi cukup lebar dan tombol sejajar */
+/* --- UPDATE POSISI TOMBOL SEJAJAR KONSISTEN --- */
+
+td:last-child {
+    display: flex;          /* Jejer ke samping (Horizontal) */
+    gap: 8px;               /* Jarak antar tombol */
+    align-items: center;    /* Rata tengah secara vertikal */
+    justify-content: flex-start; /* Mulai dari kiri */
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.btn-aksi {
+    display: inline-block;
+    width: 90px;            /* [PENTING] Lebar fix biar rapi lurus */
+    padding: 8px 0;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.85em;
+    font-weight: 600;
+    text-decoration: none;
+    color: white !important;
+    transition: 0.2s;
+}
+
+.btn-selesai { background-color: #27ae60; }
+.btn-selesai:hover { background-color: #219150; }
+
+.btn-hapus { background-color: #e74c3c; }
+.btn-hapus:hover { background-color: #c0392b; }
+
+/* Class Tambahan untuk Tombol Hantu (Space) */
+.btn-hidden {
+    visibility: hidden;     /* Benda ada, tapi tak terlihat */
+    pointer-events: none;   /* Gak bisa diklik */
+}
